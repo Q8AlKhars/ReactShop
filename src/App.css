@@ -6,6 +6,18 @@
   height: 600px;
   width: 60%;
 }
+
+.Products-Image {
+width: 200px;
+height: 200px;
+}
+
+.Products-list {
+display: flex;
+justify-content: space-evenly;
+padding: 20px;
+text-align: center;
+}
 /* 
 .App-logo {
   height: 40vmin;
