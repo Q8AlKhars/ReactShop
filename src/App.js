@@ -4,10 +4,10 @@ import ProductItem from "./Components/ProductItem";
 import productData from "./Components/productData";
 
 function App() {
-  const products = productData.map((product) => {
-    return <ProductItem myItem={product} />;
-  })
-  // JSX code 
+  const products = productData.map((product, index) => {
+    return <ProductItem myItem={product} key={index} />;
+  });
+  // JSX code
   return (
     <div className="App">
       <h1>Bakery</h1>
