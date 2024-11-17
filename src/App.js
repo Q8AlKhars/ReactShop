@@ -16,7 +16,7 @@ function App() {
         as the primary leavening agent. This discovery revolutionized baking by
         introducing fluffy and airy textures to bread.
       </p>
-      <img className="Image-Store" src={shop}></img>
+      <img className="Image-Store" src={shop}/>
       <div className="Products-list">{products}</div>
     </div>
   );
